@@ -1,0 +1,32 @@
+# Compilación y artefactos
+target/
+*.class
+
+# Bases de datos SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite
+data/*.db-shm
+data/*.db-wal
+
+# Respaldos y temporales
+*.bak
+*.tmp
+*.log
+
+# Entornos de desarrollo y editores
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
